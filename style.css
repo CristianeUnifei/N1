@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 80px;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #FFA500, #FFFF00);
+}
+
+h1{
+ color: #FFFFFF;
+}
+
+.alinhamento {
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+}
+
+
+.menu {
+    text-align: center;
+}
+
+
+.menu ul li {
+    display: inline-block;
+    padding: 0 18px;
+
+}
+
+.menu ul li a {
+    display: block;
+    color: #FFFFFF;
+    padding: 30px 10px;
+}
+
+
+
+.header {
+    position: fixed;
+    top: 0;
+}
+
+
+a {
+    text-decoration: none;
+    transition-duration: 0.25s;
+}
+
+
+.imagens {
+     
+    text-align: center; 
+ 
+}
+
+.imagens img {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
+.paragrafo{
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 17px;
+}
+
+.botao{
+    background-color:chocolate; 
+  border: none; 
+  color: white; 
+  padding: 15px 32px; 
+  text-align: center; 
+  text-decoration: none; 
+  font-size: 16px; 
+  cursor: pointer; 
+  border-radius: 12px;
+
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 8px;
+}
+
+.carrinho {
+    background-color: chocolate;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container img {
+    margin-right: 10px; /* Espaçamento entre as imagens */
+}
